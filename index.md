@@ -8,12 +8,10 @@
           	console.log( "Inside Prechat API!!" );
           	embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "First_Name" : "Bhuvan" } );
           });
-
-          
     			embeddedservice_bootstrap.init(
     				'00DDi000000F9yW',
-    				'A3_MyAccounts_Messaging_Channel',
-    				'https://carefirst-hc360--devcc4.sandbox.my.site.com/ESWA3MyAccountsMessagin1746429627109',
+    				'A3_MyAccounts',
+    				'https://carefirst-hc360--devcc4.sandbox.my.site.com/ESWA3MyAccounts1746010772755',
     				{
     					scrt2URL: 'https://carefirst-hc360--devcc4.sandbox.my.salesforce-scrt.com'
     				}
@@ -22,7 +20,7 @@
     			console.error('Error loading Embedded Messaging: ', err);
     		}
     	};
-    </script>
-    <script type='text/javascript' src='https://carefirst-hc360--devcc4.sandbox.my.site.com/ESWA3MyAccountsMessagin1746429627109/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+  </script>
+  <script type='text/javascript' src='https://carefirst-hc360--devcc4.sandbox.my.site.com/ESWA3MyAccounts1746010772755/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
   </body>
 </html>
